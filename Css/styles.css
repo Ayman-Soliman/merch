@@ -1,0 +1,44 @@
+:root {
+    --primary: #ff6201;
+}
+body {
+    background-image: linear-gradient(180deg, #ff6201, 80%, #ffc107);
+    min-height: 100vh;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+nav {
+    background-color: #131921 !important;
+}
+nav .navbar-brand .logo {
+    width: 32px;
+}
+nav ul .nav-item .nav-link.active {
+    color: var(--primary);
+}
+nav .nav-item:hover a {
+    color: var(--primary) !important;
+}
+.shirt-card:not([data-country="us"]) {
+    display: none;
+}
+.shirt-card .card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+.shirt-card .card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+.toast {
+    top: 60px;
+    transform: translateX(-50%);
+    z-index: 1030;
+}
