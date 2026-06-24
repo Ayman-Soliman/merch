@@ -30,6 +30,20 @@ nav .nav-item:hover a {
     line-clamp: 2;
     overflow: hidden;
 }
+.shirt-card::before {
+    position: relative;
+}
+.shirt-card::before {
+    content: "Store: " attr(data-country);
+    margin: auto;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 54px;
+    left: 16px;
+}
+.shirt-card .card-body {
+    padding-bottom: 35px;
+}
 .shirt-card .card-text {
     display: -webkit-box;
     -webkit-box-orient: vertical;

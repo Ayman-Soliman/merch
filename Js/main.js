@@ -1,4 +1,4 @@
-let countryBtns = document.querySelectorAll('ul li a.nav-link');
+let countryBtns = document.querySelectorAll('ul li .nav-link');
 let shirtCards = document.querySelectorAll('.shirt-card');
 
 countryBtns.forEach(e => {
